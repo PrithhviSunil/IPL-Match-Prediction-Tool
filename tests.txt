@@ -1,0 +1,8 @@
+
+#tests 
+print(predict_match("Punjab Kings", "Mumbai Indians", 'Himachal Pradesh Cricket Association Stadium, Dharamsala'))
+print(predict_match("Lucknow Super Giants", "Chennai Super Kings", 'Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow'))
+print(predict_match("Gujarat Titans", "Sunrisers Hyderabad", 'Narendra Modi Stadium, Ahmedabad'))
+print(predict_match('Royal Challengers Bangalore', 'Punjab Kings', 'M Chinnaswamy Stadium'))
+print(predict_match("Delhi Capitals", "Rajasthan Royals", "Arun Jaitley Stadium"))
+print(predict_match('Chennai Super Kings', 'Sunrisers Hyderabad', 'M Chinnaswamy Stadium'))
