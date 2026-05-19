@@ -5,7 +5,7 @@ A machine learning model that predicts the winners of Indian Premier League cric
 ## Results
 
 - **60.9% accuracy** on unseen 2026 IPL season matches
-- Trained on **1,193 matches** from 2008–2025
+- Trained on **1,200+ matches** from 2008–2025
 - Baseline accuracy (random guessing): 50%
 
 ## How It Works
