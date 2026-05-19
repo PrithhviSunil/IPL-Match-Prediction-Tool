@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 
 # DATA LOADING 
-df = pd.read_csv('C:\The Spot 2\Python\IPL Prediction Tool\IPL.csv')
+df = pd.read_csv('IPL.csv')
 
 # DATA CLEANING
 matches = df.groupby('match_id').agg(
@@ -167,7 +167,6 @@ for i, row in matches[matches['season'] == 2026].iterrows():
 
 print(f"2026 accuracy: {correct_predictions/(len(matches[matches['season'] == 2026]))*100:.1f}%")
 
-print(predict_match('Rajasthan Royals', 'Lucknow Super Giants', 'Sawai Mansingh Stadium,Jaipur'))
 
 #EVALUATION 
 #plotting 
