@@ -2,6 +2,7 @@
 
 A machine learning model that predicts the winners of Indian Premier League cricket matches using historical data and team form analysis. Built with Python, scikit-learn, and pandas.
 
+
 ## Results
 
 - **60.9% accuracy** on 2026 IPL season matches
